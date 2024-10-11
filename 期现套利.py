@@ -33,9 +33,9 @@ closepos_logger = setup_logger('closepos_logger', 'closepos_log.txt')
 
 
 okex = ccxt.okx({
-    'apiKey':"2a8d6c24-6935-4b82-aa99-a09b3b60404d",
-    'secret':"6F2D8098EB97F2E25E5AFE08E3D5397F",
-'password': 'Hs990512@',   # 更新为API的密码
+    'apiKey':"yours",
+    'secret':"yours",
+'password': 'yours',   # 更新为API的密码
 }) # 这里我起名为okex， 也就是文档中的exchange
 
 
